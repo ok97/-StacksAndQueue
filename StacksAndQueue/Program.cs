@@ -29,6 +29,11 @@ namespace StacksAndQueue
             queue.Enqueue(70); //call method add Element in queue //UC1
             queue.Display(); //call Display method Display element in Queue  //UC1
             queue.Peek(); //call Display method Display Top of the element in Queue  //UC1
+           
+            
+            
+            queue.Dequeue(); //call Dequeue method //UC2
+            queue.IsEmpty(); //call IsEmpty method //UC2
 
 
             Console.ReadLine();
