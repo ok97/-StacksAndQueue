@@ -6,9 +6,15 @@ namespace UnitTestStacksAndQueue
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
+        Stack stack = new Stack(); //create object of Stack class
+
+        [TestMethod]        
+        public void PushStackElement()
+        {            
+            stack.Push(70);
+            stack.Push(30);
+            stack.Push(56);
         }
+
     }
 }
