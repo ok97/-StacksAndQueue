@@ -86,16 +86,6 @@ namespace StacksAndQueue
             }
             Display();
         }
-        
-
-
-
-
-
-
-
-
-
 
         public void Display() //create Display method print elements from the stack
         {
